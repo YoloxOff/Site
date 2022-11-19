@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=IBM+Plex+Mono:wght@700&display=swap');
+
+body {
+    font-family: 'Exo', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ******************** Loader ******************** */
+
+
+/* ******************** NAVBAR ******************** */
+
+nav {
+    overflow: hidden;
+    background-color: #FFFAE1;
+    position: top fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: right;
+    font-size: 1.3em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 19px;
+}
+
+#logo {
+    font-family: IBM Plex Mono, monospace;
+    font-weight: bold;
+    float: left;
+}
+
+/* ******************** IMAGE PRINCIPALE ******************** */
+#imageprincipal {
+    padding-top: 60px;
+    background: url(../Image/bg.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+
+h1 {
+    font-family: IBM Plex Mono, monospace;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    margin-top: 250px;
+    text-shadow: 1px 3px 2px black;
+}
+
+#premiertrait {
+    height: 3px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px black;
+}
+
+h3 {
+    font-family: IBM Plex Mono, monospace;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2.5em;
+    text-shadow: 2px 3px 2px black;
+}
+
+
+/* ******************** PAGE VOTE <VOTE BUTTON> ******************** */
+
+header button {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5em;
+    border-radius: 15px;
+    background-color: #FFFAE1;
+}
+
+#imagevote {
+    background: url(../Image/BgVote.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 1500px;
+}
+
+header h1 {
+    padding-top: 150px;
+}
+
+/* ******************** PAGE 404 ******************** */
+h4 {
+    font-family: IBM Plex Mono, monospace;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 320px;
+
+}
+
+#img404 {
+    background: url(../Image/404.png) no-repeat 50% 50%;
+    background-size: auto;
+    height: 570px;
+}
+
+/* ******************** Shop Page ******************** */
+
+#shopimg {
+    background: url(../Image/) no-repeat 50% 50%;
+    background-size: 100px;
+    height: 570px;
+}
+
+
+/* ********************    ******************** */
